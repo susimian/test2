@@ -17,6 +17,10 @@ public class HelloController {
     public String dba(){
         return "hello dba";
     }
+    @GetMapping("/student/hello")
+    public String student(){
+        return "hello student";
+    }
     @GetMapping("/hello")
     public String hello(){
         return "hello";
